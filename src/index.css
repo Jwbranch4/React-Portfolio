@@ -1,0 +1,159 @@
+:root {
+  --primary-color: #333;
+}
+
+body {
+  color: var(--primary-color);
+  font-family: sans-serif;
+  background-color: white;
+  font-size: 2vw;
+}
+header,
+footer {
+  padding: 20px 35px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: rgb(94, 132, 150);
+}
+
+h2 {
+  font-size: 2.5vw;
+}
+
+header h1,
+footer h2 {
+  font-weight: bold;
+  font-size: 2.5vw;
+  color: var(--primary-color);
+  margin: 0;
+  align-items: center;
+  padding: 10px 15px;
+}
+
+header a,
+footer a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+header a:hover,
+footer a:hover {
+  color: azure;
+}
+
+header nav,
+footer nav {
+  margin: 7px 0;
+}
+
+header nav ul,
+footer nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+header nav ul li a,
+footer nav ul li a {
+  padding: 10px 15px;
+  font-weight: lighter;
+  font-size: 1.55vw;
+}
+
+.aboutMe {
+  text-align: center;
+  padding: 10px;
+  margin: 20px;
+}
+
+.aboutMeContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutMePicture {
+  flex: 0 1 48%;
+}
+
+.aboutMeArticle {
+  flex: 0 1 48%;
+}
+
+.aboutMe img {
+  border-radius: 25px;
+  padding: 10px;
+  margin: 20px;
+  height: 200px;
+  width: 200px;
+}
+
+.projects {
+  text-align: center;
+  align-items: center;
+  padding: 10px;
+  margin: 20px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+.card {
+  flex: 0 1 28%;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  margin: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 5px var(--primary-color);
+}
+
+.card:hover {
+  transition: 0.3s;
+  background-color: rgb(94, 132, 150);
+  color: azure;
+}
+
+.card img {
+  display: block;
+  border: 0;
+  width: 100%;
+  height: auto;
+}
+
+.firstCard {
+  flex: 0 1 50%;
+}
+
+.copyright {
+  font-size: small;
+}
+
+@media screen and (max-width: 980px) {
+  .card {
+    flex: 0 1 35%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .card {
+    flex: 0 1 33%;
+  }
+
+  .firstCard {
+    flex: 0 1 98%;
+  }
+}
+@media screen and (max-width: 575px) {
+  .card {
+    flex: 0 1 100%;
+  }
+}
