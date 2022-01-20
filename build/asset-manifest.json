@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.7c8fbbf5.css",
+    "main.js": "/React-Portfolio/static/js/main.5404dd75.js",
+    "static/js/787.8c081f57.chunk.js": "/React-Portfolio/static/js/787.8c081f57.chunk.js",
+    "static/media/Screenshot.png": "/React-Portfolio/static/media/Screenshot.e6f9f9c8bae27e1f5a5f.png",
+    "static/media/runBuddyScreenshot.png": "/React-Portfolio/static/media/runBuddyScreenshot.6eb96e539bab5f928445.png",
+    "static/media/OverTheHill.png": "/React-Portfolio/static/media/OverTheHill.729960495fe0db74a733.png",
+    "static/media/Hero Plan my day.gif": "/React-Portfolio/static/media/Hero Plan my day.b99f6713603c00ba2059.gif",
+    "static/media/rps.png": "/React-Portfolio/static/media/rps.de9e1d0d4225bf7bba18.png",
+    "static/media/picture.jpg": "/React-Portfolio/static/media/picture.f891a9c95cb7e827fc26.jpg",
+    "static/media/work-day-scheduler.png": "/React-Portfolio/static/media/work-day-scheduler.343b042692a8e6b3ad72.png",
+    "static/media/Password-Generator.png": "/React-Portfolio/static/media/Password-Generator.f93825da91248833eac2.png",
+    "index.html": "/React-Portfolio/index.html",
+    "main.7c8fbbf5.css.map": "/React-Portfolio/static/css/main.7c8fbbf5.css.map",
+    "main.5404dd75.js.map": "/React-Portfolio/static/js/main.5404dd75.js.map",
+    "787.8c081f57.chunk.js.map": "/React-Portfolio/static/js/787.8c081f57.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7c8fbbf5.css",
+    "static/js/main.5404dd75.js"
+  ]
+}
