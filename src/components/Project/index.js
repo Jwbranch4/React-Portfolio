@@ -1,7 +1,6 @@
 import React from "react";
 import hero from "../../assets/images/Hero Plan my day.gif";
-import hill from "../../assets/images/OverTheHill.png";
-import rps from "../../assets/images/rps.png";
+import justawear from "../../assets/images/JW-1.JPG";
 import password from "../../assets/images/Password-Generator.png";
 import work from "../../assets/images/work-day-scheduler.png";
 import run from "../../assets/images/runBuddyScreenshot.png";
@@ -13,6 +12,18 @@ function Project() {
       <h2>Projects</h2>
       <section className="cards">
         <article className="card firstCard">
+          <h3>justAwear</h3>
+          <a href="https://justawear-mern.herokuapp.com/" target="_blank">
+            <img src={justawear} alt="landing page of justAwear website" />
+          </a>
+          <p>
+            Just A Wear is proud to be the eCommerce provider of online clothing
+            and apparel stores, selling all types of styles and accessories
+            which are showcased on our website application with full product
+            descriptions.
+          </p>
+        </article>
+        <article className="card">
           <h3>Plan My Day</h3>
           <a href="https://rmartin1985.github.io/plan-my-day/" target="_blank">
             <img src={hero} alt="plan my day main logo" />
@@ -27,27 +38,6 @@ function Project() {
             information about the site or to Ticketmaster to be able to buy
             tickets to that event.
           </p>
-        </article>
-
-        <article className="card">
-          <h3>Over the Hill Gaming Community</h3>
-          <a
-            href=" https://evening-chamber-18092.herokuapp.com/"
-            target="_blank"
-          >
-            <img src={hill} alt="screen shot of Over The Hill website" />
-          </a>
-          <p>
-            This is the second group project with UT Coding BootCamp. The
-            website was created using handlebars, express, sessions, mysql2,
-            sequelize, HTML, CSS, Javascript.
-          </p>
-        </article>
-
-        <article className="card">
-          <h3>Rock Paper Scissors</h3>
-          <img src={rps} alt="screenshot of rock paper scissors website" />
-          <p>Place holder for Rock Paper Scissors javascript game</p>
         </article>
 
         <article className="card">
