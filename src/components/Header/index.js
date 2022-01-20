@@ -6,7 +6,7 @@ function Header() {
   return (
     <header>
       <h1>
-        <a href="index.html">
+        <a href="/">
           <img src={tree} /> James Branch
         </a>
       </h1>

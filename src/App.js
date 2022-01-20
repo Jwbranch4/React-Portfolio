@@ -3,18 +3,22 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Project from "./components/Project";
 import About from "./components/About";
+import Contact from "./components/Contact";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div>
-      <main>
+    <Router>
+      <div>
         <Header> </Header>
-
-        <About></About>
-        <Project></Project>
+        <main>
+          <Route exact path="/" component={About} />
+          <Route exact path="/projects" component={Project} />
+          <Route exact path="/contact" component={Contact} />
+        </main>
         <Footer></Footer>
-      </main>
-    </div>
+      </div>
+    </Router>
   );
 }
 
