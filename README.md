@@ -8,9 +8,9 @@ Portfolio website showcasing working projects with contact information.
 
 ## Links
 
-| To github repository:                        | To live page:                               |
-| -------------------------------------------- | ------------------------------------------- |
-| https://github.com/Jwbranch4/React-Portfolio | https://jwbranch4.github.io/React-Portfolio |
+| To github repository:                        | To live page:                                 |
+| -------------------------------------------- | --------------------------------------------- |
+| https://github.com/Jwbranch4/React-Portfolio | https://james-branch-portfolio.herokuapp.com/ |
 
 ![screenshot](src/assets/images/screenshotPortfolio.png)
 
