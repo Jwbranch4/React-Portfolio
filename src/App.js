@@ -8,7 +8,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 
 function App() {
   return (
-    <Router>
+    <Router basename={"/React-Portfolio"}>
       <div>
         <Header> </Header>
         <main>
