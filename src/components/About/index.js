@@ -11,11 +11,17 @@ function About() {
         </div>
         <div className="aboutMeArticle">
           <article>
-            Hello, my name is James Branch and I am studying to be a full-stack
-            developer at UT's Coding Boot Camp. Here I have a collection of
-            projects that I have completed and plan to complete soon. If you
-            have any questions or wish to talk you can contact me from the
-            contact section of this website.
+            I am a web developer with experience primarily in JavaScript, but
+            with an interest in the back-end of applications. In a previous
+            career, I was a Pharmacy Technician. In my career as a Pharmacy
+            Technician I learned how to work in a team environment, keep calm
+            and excel in high stress situations, and have a professionalism
+            while working in customer service. My passion for coding started in
+            High School with going to state for Robotics club and being on the
+            VICA web mastering team. I recently rekindled this passion by
+            completing UT’s Coding Boot Camp. I am seeking a role as a web
+            developer at a company where I can learn, grow, and continue to
+            master the craft.
           </article>
         </div>
       </div>

@@ -5,6 +5,7 @@ import password from "../../assets/images/Password-Generator.png";
 import work from "../../assets/images/work-day-scheduler.png";
 import run from "../../assets/images/runBuddyScreenshot.png";
 import horiseon from "../../assets/images/Screenshot.png";
+import note from "../../assets/images/Note-Taker.png";
 
 function Project() {
   return (
@@ -54,6 +55,21 @@ function Project() {
           <p>
             This is a application that can be use to generate a random password
             based on criteria selected.
+          </p>
+        </article>
+
+        <article className="card">
+          <h3>Note Taker</h3>
+          <a
+            href="https://polar-river-32996.herokuapp.com/notes"
+            target="_blank"
+          >
+            <img src={note} alt="screenshot of Note Taker website" />
+          </a>
+          <p>
+            an application called Note Taker that can be used to write and save
+            notes. This application will use an Express.js back end and will
+            save and retrieve note data from a JSON file.
           </p>
         </article>
 
